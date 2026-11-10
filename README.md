@@ -13,13 +13,13 @@
 - CPU:AMD Ryzen 9 9955HX 16-Core Processor
 - 内存:三星 16GB DDR5 5600MHz
 - 显卡:NVIDIA Geforce RTX 5060 Laptop
-- 无线PCIE网卡:Intel AX210
+- 无线PCIE网卡:Intel(R) Wi-Fi 6E AX210 160MHz
 
 
 # 工作情况
 - [x] Apple服务(iCloud/iMessage/FaceTime)
-- [x] GPU硬件加速(Metal 3)
-- [x] CPU电源管理(AMDRyzenCPUPowerManagement)
+- [x] GPU硬件加速(Metal 4)
+- [x] CPU电源管理
 - [x] USB端口
 - [x] Wifi
 - [x] 关闭显示器
