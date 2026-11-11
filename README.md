@@ -1,6 +1,5 @@
 <div align="center">
              <h1>ASUS TX Gaming 7Pro Ryzen CN OpenCore EFI</h1>
-             <img src="https://img.shields.io/github/release/ASUS-TX-Gaming-7Pro-Ryzen-CN-OpenCore-EFI" />
              <img src="https://img.shields.io/github/downloads/VisualTechStudio/ASUS-TX-Gaming-7Pro-Ryzen-CN-OpenCore-EFI/total?color=white&style=plastic" />
              <img src="https://img.shields.io/github/stars/VisualTechStudio/ASUS-TX-Gaming-7Pro-Ryzen-CN-OpenCore-EFI" />
              <br>
