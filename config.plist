@@ -52,7 +52,7 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-BATT.aml</string>
+                    <string>SSDT-BATT-ASUS.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -110,36 +110,6 @@
                     <data></data>
                     <key>Replace</key>
                     <data>WEJTVA==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data>RFNEVA==</data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>DISABLED: was rename _BIF to XBIF (capacity already OK; renamed methods must not go missing)</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>X0JJRg==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>WEJJRg==</data>
                     <key>ReplaceMask</key>
                     <data></data>
                     <key>Skip</key>
@@ -233,8 +203,6 @@
                 <true/>
                 <key>AvoidRuntimeDefrag</key>
                 <true/>
-                <key>ClearTaskSwitchBit</key>
-                <false/>
                 <key>DevirtualiseMmio</key>
                 <true/>
                 <key>DisableSingleUser</key>
@@ -246,8 +214,6 @@
                 <key>EnableSafeModeSlide</key>
                 <true/>
                 <key>EnableWriteUnprotector</key>
-                <false/>
-                <key>FixupAppleEfiImages</key>
                 <false/>
                 <key>ForceBooterSignature</key>
                 <false/>
@@ -395,7 +361,7 @@
                     <key>BundlePath</key>
                     <string>SimpleHDA.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.0</string>
+                    <string>V1.0.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -485,7 +451,7 @@
                     <key>BundlePath</key>
                     <string>RealtekRTL8111.kext</string>
                     <key>Comment</key>
-                    <string>V2.4.2</string>
+                    <string>V3.0.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -557,7 +523,7 @@
                     <key>BundlePath</key>
                     <string>SMCNvidiaGPU.kext</string>
                     <key>Comment</key>
-                    <string>V1.3</string>
+                    <string>V2.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -609,9 +575,9 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>UTBDefault.kext</string>
+                    <string>UTBMap.kext</string>
                     <key>Comment</key>
-                    <string>V1.0</string>
+                    <string>V1.0 | NullMoth USB map</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -807,24 +773,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>WhateverGreen.kext</string>
-                    <key>Comment</key>
-                    <string>V1.7.2</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/WhateverGreen</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>AMFIPass.kext</string>
                     <key>Comment</key>
                     <string>V1.4.1 | AMFIPass (NullMoth driver)</string>
@@ -832,24 +780,6 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AMFIPass</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>AirportItlwm.kext</string>
-                    <key>Comment</key>
-                    <string>V2.4.0</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -915,6 +845,24 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>RyzenHV.kext</string>
+                    <key>Comment</key>
+                    <string>V0.7.8</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/RyzenHV</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>HibernationFixup.kext</string>
                     <key>Comment</key>
                     <string>V1.5.4</string>
@@ -922,6 +870,24 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/HibernationFixup</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AirportItlwm.kext</string>
+                    <key>Comment</key>
+                    <string>V2.4.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -1793,12 +1759,10 @@
                 <true/>
                 <key>DisableIoMapper</key>
                 <false/>
-                <key>DisableIoMapperMapping</key>
-                <false/>
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
-                <true/>
+                <false/>
                 <key>ExtendBTFeatureFlags</key>
                 <false/>
                 <key>ExternalDiskIcons</key>
@@ -1852,8 +1816,6 @@
                 <false/>
                 <key>HideAuxiliary</key>
                 <false/>
-                <key>InstanceIdentifier</key>
-                <string></string>
                 <key>LauncherOption</key>
                 <string>Full</string>
                 <key>LauncherPath</key>
@@ -1892,7 +1854,7 @@
                 <key>SysReport</key>
                 <false/>
                 <key>Target</key>
-                <integer>67</integer>
+                <integer>3</integer>
             </dict>
             <key>Entries</key>
             <array/>
@@ -2038,9 +2000,9 @@
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>debug=0x100 keepsyms=1 -vi2c-force-polling amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth itlwm_he=1</string>
+                    <string>-v -lilubetaall debug=0x100 keepsyms=1 -vi2c-force-polling amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 itlwm_he=1 rhv_allow_users=1 rhv_hv=1 nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth nvrmacpibl=1 nvrmtgp=1 nvrmgps=1 nvrmnvpcf=1</string>
                     <key>csr-active-config</key>
-                    <data>QwoAAA==</data>
+                    <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
                     <data></data>
                     <key>run-efi-updater</key>
@@ -2227,8 +2189,6 @@
                     <string>OpenCanopy GUI picker</string>
                     <key>Enabled</key>
                     <true/>
-                    <key>HideVerbose</key>
-                    <false/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -2241,8 +2201,6 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
-                    <key>HideVerbose</key>
-                    <false/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -2255,8 +2213,6 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
-                    <key>HideVerbose</key>
-                    <false/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -2269,8 +2225,6 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
-                    <key>HideVerbose</key>
-                    <false/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -2300,22 +2254,16 @@
             <dict>
                 <key>ClearScreenOnModeSwitch</key>
                 <false/>
-                <key>ConsoleFont</key>
-                <string></string>
                 <key>ConsoleMode</key>
                 <string></string>
                 <key>DirectGopRendering</key>
                 <false/>
                 <key>ForceResolution</key>
                 <false/>
-                <key>GopBurstMode</key>
-                <false/>
                 <key>GopPassThrough</key>
                 <string>Disabled</string>
                 <key>IgnoreTextInGraphics</key>
                 <false/>
-                <key>InitialMode</key>
-                <string></string>
                 <key>ProvideConsoleGop</key>
                 <true/>
                 <key>ReconnectGraphicsOnConnect</key>
@@ -2371,8 +2319,6 @@
                 <false/>
                 <key>OSInfo</key>
                 <false/>
-                <key>PciIo</key>
-                <false/>
                 <key>UnicodeCollation</key>
                 <false/>
             </dict>
@@ -2402,18 +2348,12 @@
                 <true/>
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
-                <key>ResizeUsePciRbIo</key>
-                <false/>
-                <key>ShimRetainProtocol</key>
-                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>
                 <false/>
             </dict>
             <key>ReservedMemory</key>
-            <array/>
-            <key>Unload</key>
             <array/>
         </dict>
     </dict>
