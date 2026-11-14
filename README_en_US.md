@@ -11,7 +11,7 @@
 - Motherboard: ASUS TX Gaming 7Pro Ryzen CN (BIOS V322)
 - CPU: AMD Ryzen 9 9955HX 16-Core Processor
 - RAM: Samsung 16GB DDR5 5600MHz
-- GPU: NVIDIA GeForce RTX 5060 Laptop (Note: Discrete GPUs are generally not supported in Hackintoshes on AMD laptops, running on IGPU/VESA mode or disabled depending on configuration)
+- GPU: NVIDIA GeForce RTX 5060 Laptop
 - Wireless PCIe Card: Intel(R) Wi-Fi 6E AX210 160MHz
 
 # Working Status
